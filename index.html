@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="images/disney.png" >
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Disney+ Hotstar Clone</title>
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+        <nav class="navbar">
+			<img src="images/disney.png" class="brand-logo"alt=""/>
+			<ul class="nav-links">
+				<li class="nav-items"><a href="#">TV</a></li>
+				<li class="nav-items"><a href="#">movies</a></li>
+				<li class="nav-items"><a href="#">sports</a></li>
+				<li class="nav-items"><a href="#">Premium</a></li>
+				<li class="nav-items"><a href="#">disney+</a></li>
+			</ul>
+
+			<div class="right-container">
+				<input type="text" class="search-box" placeholder="search" />
+				<button class="sub-btn">subscribe</button>
+				<a href="#" class="login-link">login</a>
+			</div>
+		</nav>
+
+		<div class="carousel-container">
+			<div class="carousel">
+				<!--	<div class="slider">
+					<div class="slide-content">
+						<h1 class="movie-title">loki</h1>
+						<p class="movie-des">
+							The mercurial villain Loki resumes his role as the God of Mischief
+							in a new series that takes place after the events of "Avengers
+							Endgame."
+						</p>
+					</div>
+					<img src="images/slider 1.PNG" alt="" />
+				</div>-->
+			</div>
+		</div>
+
+		<div class="video-card-container">
+			<div class="video-card">
+				<img src="images/disnep.png" class="video-card-image" alt="" />
+				<video src="videos/disney.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/pixar.png" class="video-card-image" alt="" />
+				<video src="videos/pixar.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/geographic.png" class="video-card-image" alt="" />
+				<video src="videos/geographic.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/marvel1.png" class="video-card-image" alt="" />
+				<video src="videos/marvel.mp4" mute loop class="card-video"></video>
+			</div>
+
+			<div class="video-card">
+				<img src="images/star-wars.png" class="video-card-image" alt="" />
+				<video src="videos/star-war.mp4" mute loop class="card-video"></video>
+			</div>
+		</div>
+
+		<h1 class="title">recommended for you</h1>
+
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/next1.png" alt="" />
+			</button>
+			<div class="card-container">
+				<div class="card">
+					<img src="https://d229kpbsb5jevy.cloudfront.net/firstshows/content/common/movie/images/custattr-movie-movie-thumbnail-2x3-movie-5vgwy30rkun.jpeg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Vikramadithyan</h2>
+						<h6 class="des">Adithyan, the son of a dishonoured thief who committed suicide...</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic40.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Crash Landing On You</h2>
+						<h6 class="des">A paragliding mishap drops a South Korean ..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic1.png" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">All Of Us Are Dead</h2>
+						<h6 class="des">A high school becomes ground zero for a zombie..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5798/1515798-v-94e259f7cc42" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Corona Papers</h2>
+						<h6 class="des">A cat and mouse game erupts between..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic2.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Alien VS Predator</h2>
+						<h6 class="des">During an archaeological expedition on..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/24/1490024-v-00d306829d7a" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Hridhayam</h2>
+						<h6 class="des">Arun, a young man, enrols in an engineering..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic3.avif" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Nope</h2>
+						<h6 class="des">A man and his sister discover something ..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic4.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Thor</h2>
+						<h6 class="des">The Thor film series is a run of four movies..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5168/875168-v" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Avengers</h2>
+						<h6 class="des">Nick Fury is compelled to launch the Avengers..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic5.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Contact</h2>
+						<h6 class="des">Dr Ellie, a radio astronomer, discovers the..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic6.jpeg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Game Of Thrones</h2>
+						<h6 class="des">Game of Thrones is an American fantasy drama..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic7.png" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Soul</h2>
+						<h6 class="des">Joe is a middle-school band teacher ..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic8.png" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Raya And The Last Dragon</h2>
+						<h6 class="des">Raya, a warrior, sets out to track down..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic9.png" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Luca</h2>
+						<h6 class="des">Luca, a sea monster, befriends Alberto..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic10.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Door In The Woods</h2>
+						<h6 class="des">Things take a turn for the worse..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://images.ottplay.com/posters/e69f7a43b01485f202262501f973fb1f.jpg?impolicy=ottplay-20210210" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">The Last Of Us</h2>
+						<h6 class="des">Joel and Ellie, a pair connected through..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic11.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Dada</h2>
+						<h6 class="des">A man embraces fatherhood and provides..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h1 class="title">popular shows</h1>
+
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/next1.png" alt="" />
+			</button>
+			<div class="card-container">
+				<div class="card">
+					<img src="images/pic12.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Inception</h2>
+						<h6 class="des">Cobb steals information from his targets..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic13.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Arrival</h2>
+						<h6 class="des">The film stars Amy Adams as Louise..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/7698/727698-v" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">The Martian</h2>
+						<h6 class="des">Mark Watney is stranded on the planet..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/5402/675402-v" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Pirates Of The Carribean</h2>
+						<h6 class="des">Pirates of the Caribbean is an American fantasy..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic14.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">1899</h2>
+						<h6 class="des">Immigrants on a steamship travelling from..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/4295/754295-v" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Avatar</h2>
+						<h6 class="des">Avatar is the story of Jake Sully, a paraplegic..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/2350/1282350-v-15ffecf89380" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Spider Man</h2>
+						<h6 class="des">Peter Parker's life changes when he..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic15.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Spadikam</h2>
+						<h6 class="des">Chacko master, a school headmaster, is never..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic16.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">The Hole In The Ground</h2>
+						<h6 class="des">Sarah leaves her husband and rents..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/68afb6fa-e011-4c0e-b0b2-a1426fc7787a/d68etb6-53c94b0d-46a9-45db-b82b-1ed904157f39.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY4YWZiNmZhLWUwMTEtNGMwZS1iMGIyLWExNDI2ZmM3Nzg3YVwvZDY4ZXRiNi01M2M5NGIwZC00NmE5LTQ1ZGItYjgyYi0xZWQ5MDQxNTdmMzkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7z2KUWuiPF-bSScSF9gDWVYEZkkmo_oRKcmbtew8OYs" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Interstellar</h2>
+						<h6 class="des">When Earth becomes uninhabitable in..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://7starhd.futbol/wp-content/uploads/2023/05/mv5byjrhzjbmztctnzblmy00mzbllwiyotctm2uymzhjmjvhzmvlxkeyxkfqcgdeqxvymdc5odizmw-_v1_fmjpg_ux1000_-1-1.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Evil Dead Rise</h2>
+						<h6 class="des">A reunion between two estranged sisters..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic17.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">The Walking Dead </h2>
+						<h6 class="des">In the wake of a zombie apocalypse..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic18.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Gravity</h2>
+						<h6 class="des">On an outer space mission, engineer..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic19.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Rings</h2>
+						<h6 class="des">Rings is a 2017 American supernatural horror..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic20.jpg" class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Quiet Place</h2>
+						<h6 class="des">Following the deadly events at home..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h1 class="title">latest & trending</h1>
+
+		<div class="movies-list">
+			<button class="pre-btn" title="btn">
+				<img src="images/pre.png" alt="" />
+			</button>
+			<button class="nxt-btn" title="btn">
+				<img src="images/next1.png" alt="" />
+			</button>
+			<div class="card-container">
+				<div class="card">
+					<img
+						src="images/pic21.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Your Name</h2>
+						<h6 class="des">Two teenagers share a profound, magical..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic22.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">The Peripheral</h2>
+						<h6 class="des">Set in the future when technology has subtly..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic23.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">I Want To Eat Your Pancreas</h2>
+						<h6 class="des">An aloof boy comes across a book..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic24.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">The Collector</h2>
+						<h6 class="des">In order to repay a debt, an ex-convict..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic25.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Burning Bright</h2>
+						<h6 class="des">Kelly and his autistic brother Tom live with..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic26.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">A Silent Voice</h2>
+						<h6 class="des">When a grade school student with impaired..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic27.jpeg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Titanic</h2>
+						<h6 class="des">Every night in my dreams,i see you,i feel you..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic28.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Train To Busan</h2>
+						<h6 class="des">Seok-woo and his daughter are on a train to Busan..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/pic29.jpg"class="card-img" alt="" />
+					<div class="card-body">
+						<h2 class="name">Journey To The Center Of The Earth</h2>
+						<h6 class="des">A scientist sets out to search for his missing brother..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic30.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Moonfall</h2>
+						<h6 class="des">A mysterious force throws the moon out of..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic31.jpeg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Sinister</h2>
+						<h6 class="des">Ellison, a crime writer, moves his family to..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic32.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Jurassic world</h2>
+						<h6 class="des">A theme park showcasing genetically-engineered..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic33.png"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Five Feet Apart</h2>
+						<h6 class="des">Seventeen-year-old Stella spends most of her time..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic34.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">The Collection</h2>
+						<h6 class="des">Elena goes to a nightclub and becomes a..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic35.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Life Of Pie</h2>
+						<h6 class="des">Pi Patel finds a way to survive in..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic36.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Along with The Gods</h2>
+						<h6 class="des">Three grim reapers escorts a man to..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic37.jpg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Snowpiercer</h2>
+						<h6 class="des">When the earth is frozen, only a few..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic38.jpeg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">Luther:The Fallen Sun</h2>
+						<h6 class="des">A serial killer terrorizes London while..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/pic39.jpeg"
+						class="card-img"
+						alt=""
+					/>
+					<div class="card-body">
+						<h2 class="name">The Revenant</h2>
+						<h6 class="des">Hugh Glass, a legendary frontiersman, is..</h6>
+						<button class="watchlist-btn">add to watchlist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js" async></script>
+	</body>
+</html>
